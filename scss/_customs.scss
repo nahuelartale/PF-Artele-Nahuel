@@ -1,0 +1,137 @@
+/* use este scsss para modificar cosas de bootstrap o agregarle cosas, en este caso modifique y agregue cosas al navbar toggler */
+@import "mixin";
+
+.navbar-toggler {
+    grid-column: 2;
+    justify-self: start;
+    @include icono-animado;
+            
+        svg {
+            color: $color-iconos;
+                
+        }
+}
+
+.offcanvas-body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    .cuenta{
+        grid-column: 1;
+        justify-self: start;
+        border: none;
+        @include icono-animado;
+            
+            svg{
+                color: $color-primario;
+                background-color: $color-fondo-blanco;
+
+            }
+
+        }
+            
+    .me-gusta{
+        grid-column: 2;
+        justify-self: start;
+        border: none;
+        @include icono-animado;
+            
+            svg{
+                color: $color-primario;
+                background-color: $color-fondo-blanco;
+
+            }
+
+        }
+    
+    
+    .ubicacion{
+        grid-column: 3;
+        justify-self: center;
+        border: none;
+        @include icono-animado;
+            
+            svg{
+                color: $color-primario;
+                background-color: $color-fondo-blanco;
+
+            }
+
+        }
+    
+
+    .idioma{
+         grid-column: 4;
+        justify-self: center;
+        border: none;
+        @include icono-animado;
+            
+            svg{
+                color: $color-primario;
+                background-color: $color-fondo-blanco;
+    
+            }
+    
+        }
+
+}
+
+
+footer{
+    
+    .btn-instagram{
+        grid-column: 9;
+       @include iconos-footer;
+    }
+
+    .btn-whatsapp{
+        grid-column: 10;
+        @include iconos-footer;
+    }
+
+    .btn-ayuda{
+        grid-column: 11;
+        @include iconos-footer;
+
+    }
+
+}
+
+
+/* aca empieza el custom de la pagina de ayuda*/
+
+.list-group{
+    margin-bottom: 80px;
+
+    :hover{
+        background-color: #faebd7;
+    }
+    .titulo{
+        border-color: $color-secundario;
+        background-color: $color-secundario;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+}
+
+/* aca empieza la pagina de me gustas*/
+
+.productos {
+    .card {
+      &.mb-3 {
+        max-width: 540px;
+  
+        .row {
+          .col-md-4 {
+            display: flex;
+            align-items: center;
+          }
+  
+          .card-img-fluid {
+            width: 200px; // Tamaño deseado para la imagen
+            margin: auto; // Centrar la imagen horizontalmente
+          }
+        }
+      }
+    }
+  }
