@@ -77,6 +77,8 @@
 }
 
 
+
+
 footer{
     
     .btn-instagram{
@@ -95,6 +97,25 @@ footer{
 
     }
 
+}
+
+/*aca empieza el custom de la pagina de cuenta*/
+
+.formulario{
+    margin-left: 10px;
+    margin-right: 10px;
+    .mb-3{
+       .form-control{
+        box-shadow: 0 0 5px rgba(222, 184, 135, 0.8);
+        border-color: $color-secundario;
+       }
+    }
+    button{
+        background-color: $color-secundario;
+        border-radius: 10px;
+        border-color: $color-primario;
+        color: $color-iconos;
+    }
 }
 
 

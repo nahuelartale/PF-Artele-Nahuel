@@ -183,6 +183,22 @@ footer .btn-ayuda .btn svg {
   color: #ac65eb;
 }
 
+/*aca empieza el custom de la pagina de cuenta*/
+.formulario {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.formulario .mb-3 .form-control {
+  box-shadow: 0 0 5px rgba(222, 184, 135, 0.8);
+  border-color: #deb887;
+}
+.formulario button {
+  background-color: #deb887;
+  border-radius: 10px;
+  border-color: #ac65eb;
+  color: whitesmoke;
+}
+
 /* aca empieza el custom de la pagina de ayuda*/
 .list-group {
   margin-bottom: 80px;
